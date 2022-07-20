@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.625rem;
+    color: #903749;
+}
+
+h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2.5rem;
+    color: #B83B5E;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 30px;
+    color: #0F4C75;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+p{
+color: #40514E;
+font-family: 'Roboto Mono', monospace;
+line-height: 2;
+/* font-family: 'Playfair Display', serif; */
+font-size: 1rem;
+}
+
+hr{
+    border-style:dotted none none;
+    border-color: #EAF6F6;
+    border-width: 10px;
+    width: 6%;
+    margin: auto;
+}
+
+.top-container{
+    background-color: #BE9FE1;
+    position: relative;
+    padding-top:100px;;
+}
+
+.top-cloud{
+    width: 15%;
+    position:absolute;
+    right:20%;
+    top:13%;
+}
+
+.last-cloud{
+    width: 15%;
+    position:absolute;
+    left:15%;
+    top:40%;
+}
+
+.profile{
+    padding: 5%;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.skills{
+    padding: 3%;
+}
+
+.skill-rows{
+width: 50%;
+margin: 50px auto 100px;
+text-align: left;
+}
+
+.skill-rows img{
+    width: 25%;
+}
+
+.design-img{
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img{
+    float: right;
+    margin-left: 30px;
+}
+
+.contact{
+    width: 50%;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.contact p{
+margin-bottom: 30px;
+}
+
+.btn{
+    padding: 10px;
+    /* border: solid; */
+    border-radius: 8px;
+    color: whitesmoke;
+    border-color: #11999E;
+    background-color: #B83B5E;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: #F37878;
+}
+
+.bottom-container{
+    background-color: #C9B6E4;
+    padding: 25px;
+}
+
+.bottom-container a{
+    margin: 10px;
+}
+
+.bottom-container a:hover{
+    color: #FFFFFF;
+}
+
+.copyright{
+    color: #FFFFFF;
+    margin: 16px auto 0px;
+}
